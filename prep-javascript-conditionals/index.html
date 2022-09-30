@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Conditionals</title>
+</head>
+<body>
+  <script>
+var age = 26;
+if (age < 18) {
+  var resultAge = 'A child';
+} else {
+  resultAge = 'An adult';
+}
+console.log(resultAge);
+
+var student1Score = 44;
+if (student1Score >= 70) {
+  var resultScore = 'Congrats you received a passing grade!';
+} else {
+  resultScore = 'Oh no you failed!';
+}
+console.log(resultScore);
+
+var student2Score = 97;
+if (student2Score < 60) {
+  var resultGrade = 'F';
+} else if (student2Score < 70) {
+  resultGrade = 'D';
+} else if (student2Score < 80) {
+  resultGrade = 'C';
+} else if (student2Score < 90) {
+  resultGrade = 'B';
+} else if (student2Score < 100) {
+  resultGrade = 'A';
+} else {
+  resultGrade = 'A++';
+}
+console.log(resultGrade);
+
+var season = 'autumn';
+if (season === 'summer') {
+  var resultSeason = "it's hot today";
+} else if (season === 'spring') {
+  resultSeason = 'the flowers are blooming';
+} else if (season === 'autumn') {
+  resultSeason = 'the leaves are changing colors';
+} else if (season === 'winter') {
+  resultSeason = "it's cold today";
+} else {
+  resultSeason = 'please enter a valid season';
+}
+console.log(resultSeason);
+
+var dayOfTheWeek = 'thursday';
+if (dayOfTheWeek === 'saturday' || dayOfTheWeek === 'sunday') {
+  var resultDay = 'Have a good weekend!';
+} else {
+  resultDay = 'Its a weekday!';
+}
+console.log(resultDay);
+  </script>
+</body>
+</html>
